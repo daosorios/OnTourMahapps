@@ -66,7 +66,7 @@ namespace ProyectoBeLife
             }
             else
             {
-                MessageBox.Show("Apoderado no pudi ser regsitrado ");
+                MessageBox.Show("Apoderado no pudo ser regsitrado ");
             }
 
 

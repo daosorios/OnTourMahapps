@@ -23,6 +23,8 @@
 
             </Controls:MetroTabItem>
 
+
+            <!--Curso-->
             <Controls:MetroTabItem Header="Curso" x:Uid="1" Height="100" Margin="157,0,-261,0" Background="Orange" >
                 <Grid>
                     <Grid.RowDefinitions>
@@ -32,8 +34,8 @@
                         <RowDefinition Height="3*"/>
                         <RowDefinition Height="3*"/>
                         <RowDefinition Height="3*"/>
-                        <RowDefinition Height="3*"/>                        
-                        <RowDefinition Height="10*"/>              
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="10*"/>
                         <RowDefinition Height="2*"/>
                     </Grid.RowDefinitions>
 
@@ -153,7 +155,7 @@
                         <Grid.ColumnDefinitions>
 
                             <ColumnDefinition Width="1*"/>
-                            <ColumnDefinition Width="8*"/>                            
+                            <ColumnDefinition Width="8*"/>
                             <ColumnDefinition Width="1*"/>
                         </Grid.ColumnDefinitions>
 
@@ -183,22 +185,171 @@
                 </Grid>
             </Controls:MetroTabItem>
 
-            <Controls:MetroTabItem Header="Contrato" Width="200" Background="Orange" Height="100" Margin="261,0,-261,0" FontStyle="Normal" >
+
+            <!--Contratos -->
+            <Controls:MetroTabItem  x:Name="BtContratos" Header="Contrato" Width="200" Background="Orange" Height="100" Margin="261,0,-261,0" FontStyle="Normal" >
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="1.5*"/>
-                        <RowDefinition Height="3*"/>
-                        <RowDefinition Height="3*"/>
-                        <RowDefinition Height="3*"/>
-                        <RowDefinition Height="3*"/>
-                        <RowDefinition Height="3*"/>
-                        <RowDefinition Height="3*"/>
-                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="2.5*"/>
+                        <RowDefinition Height="2.5*"/>
                     </Grid.RowDefinitions>
 
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1.8*"/>
+                            <ColumnDefinition Width="0.1*"/>
+                        </Grid.ColumnDefinitions>
 
-                    <Label Content="Hola" Grid.ColumnSpan="2" ></Label>
+                        <Grid Grid.Column="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="2*"/>
+                            </Grid.RowDefinitions>
+
+                            <Grid Grid.Row="0">
+                                <TextBox x:Name="Txb"  BorderBrush="Gray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Controls:TextBoxHelper.Watermark="institución" Margin="0,0,92,0" />
+
+                            </Grid>
+                            <Grid Grid.Row="1">
+                                <TextBox   BorderBrush="Gray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Controls:TextBoxHelper.Watermark="Curso" Margin="0,0,92,0" />
+
+                            </Grid>
+                            <Grid Grid.Row="2">
+                                <TextBox   BorderBrush="Gray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Controls:TextBoxHelper.Watermark="Cantidad Alumnos" Margin="0,0,92,0" />
+
+                            </Grid>
+                            <Grid Grid.Row="3">
+                                <TextBox   BorderBrush="Gray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Controls:TextBoxHelper.Watermark="Nombre Representante" Margin="0,0,92,0" />
+
+                            </Grid>
+                            <Grid Grid.Row="4">
+                                <TextBox   BorderBrush="Gray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Controls:TextBoxHelper.Watermark="Rut Representante" Margin="0,0,92,0" />
+
+                            </Grid>
+                            <Grid Grid.Row="5">
+                                <TextBox   BorderBrush="Gray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Controls:TextBoxHelper.Watermark="Correo electrónico" Margin="0,0,92,0" />
+
+                            </Grid>
+                            <Grid Grid.Row="6">
+                                <ComboBox BorderBrush="Gray" Width="230"  Height="30" HorizontalAlignment="Left" VerticalAlignment="Bottom"   Margin="10,0,0,0" SelectedIndex="0">
+                                    <ComboBoxItem>
+                                        Seguro
+                                    </ComboBoxItem>
+                                    <ComboBoxItem>
+                                        Perdida
+                                    </ComboBoxItem>
+                                    <ComboBoxItem>
+                                        Vida
+                                    </ComboBoxItem>
+                                    <ComboBoxItem>
+                                        Vuelo
+                                    </ComboBoxItem>
+                                </ComboBox>               
+
+                            </Grid>
+                            
+                            <Grid Grid.Row="7">
+                               
+                                <ComboBox BorderBrush="Gray" Width="230"  Height="30" HorizontalAlignment="Left" VerticalAlignment="Bottom"   Margin="10,0,0,0" SelectedIndex="0">
+                                    <ComboBoxItem>
+                                        Destino
+                                    </ComboBoxItem>
+                                    <ComboBoxItem>
+                                        Bariloche
+                                    </ComboBoxItem>
+                                    <ComboBoxItem>
+                                        Iquique
+                                    </ComboBoxItem>
+                                    <ComboBoxItem>
+                                        Chiloe
+                                    </ComboBoxItem>
+                                </ComboBox>
+                            </Grid>
+                            
+                            
+                            <Grid Grid.Row="8">
+                                
+                                <TextBox   BorderBrush="DarkGray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Controls:TextBoxHelper.Watermark="Costo" Margin="0,0,92,0" />
+
+                            </Grid>
+
+                        </Grid>
+
+                        <Grid Grid.Column="2">
+                            <DataGrid x:Name="DgContrato" IsReadOnly="True" ItemsSource="{Binding People}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                       
+                        </Grid> 
+
+                    </Grid>
+
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="0.1*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="1">
+                            <Button x:Name="BtCrearCont" Background="Orange"
+                            Width="100" Height="30" Content="Crear" VerticalAlignment="Center" HorizontalAlignment="Right"
+                            Foreground="White" FontSize="14" FontWeight="Regular"  />
+                        </Grid>
+
+                        <Grid Grid.Column="2">
+                            <Button x:Name="BtModificarCont" Background="Orange"
+                            Width="100" Height="30" Content="Modificar" VerticalAlignment="Center" HorizontalAlignment="Right"
+                            Foreground="White" FontSize="14" FontWeight="Regular"  />
+                        </Grid>
+                        <Grid Grid.Column="3">
+                            <Button x:Name="BtEliminarCont" Background="Orange"
+                            Width="100" Height="30" Content="Eliminar" VerticalAlignment="Center" HorizontalAlignment="Right"
+                            Foreground="White" FontSize="14" FontWeight="Regular"  />
+                        </Grid>
+                        <Grid Grid.Column="5">
+                        <Button x:Name="BtRefreshContr" Background="Orange"
+                            Width="100" Height="30" Content="Restablecer" VerticalAlignment="Center" HorizontalAlignment="Left"
+                            Foreground="White" FontSize="14" FontWeight="Regular"     />
+                        </Grid>
+                    </Grid>
+
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.1*"/>
+       
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="0.1*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="3">
+                            <Button x:Name="BtBuscarCont" Background="Orange"
+                            Width="100" Height="30" Content="Buscar" VerticalAlignment="Center" HorizontalAlignment="Center"
+                            Foreground="White" FontSize="14" FontWeight="Regular" />
+                        </Grid>
+                        <Grid Grid.Column="2">
+                            <TextBox   BorderBrush="DarkGray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Stretch"  Controls:TextBoxHelper.Watermark="Buscar por rut representante"  />
+                        </Grid>
+                    </Grid>
                 </Grid>
+
+
             </Controls:MetroTabItem>
 
 
