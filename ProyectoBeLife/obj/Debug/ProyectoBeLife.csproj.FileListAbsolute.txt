@@ -1,0 +1,98 @@
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\obj\Debug\ProyectoBeLife.csprojAssemblyReference.cache
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\obj\Debug\Resources\Icons.baml
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\obj\Debug\App.baml
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\obj\Debug\App.g.cs
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\obj\Debug\ProyectoBeLife_MarkupCompile.cache
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\bin\Debug\ProyectoBeLife.exe.config
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\bin\Debug\ProyectoBeLife.exe
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\bin\Debug\ProyectoBeLife.pdb
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\bin\Debug\ControlzEx.dll
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\bin\Debug\MahApps.Metro.dll
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\bin\Debug\ControlzEx.pdb
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\bin\Debug\MahApps.Metro.pdb
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\bin\Debug\MahApps.Metro.xml
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\obj\Debug\MainWindow.g.cs
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\obj\Debug\ProyectoBeLife_MarkupCompile.lref
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\obj\Debug\MainWindow.baml
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\obj\Debug\ProyectoBeLife.g.resources
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\obj\Debug\ProyectoBeLife.Properties.Resources.resources
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\obj\Debug\ProyectoBeLife.csproj.GenerateResource.cache
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\obj\Debug\ProyectoBeLife.csproj.CopyComplete
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\obj\Debug\ProyectoBeLife.exe
+C:\Users\danie\source\repos\ProyectoBeLife\ProyectoBeLife\obj\Debug\ProyectoBeLife.pdb
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\bin\Debug\ProyectoBeLife.exe.config
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\bin\Debug\ProyectoBeLife.exe
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\bin\Debug\ProyectoBeLife.pdb
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\bin\Debug\ControlzEx.dll
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\bin\Debug\MahApps.Metro.dll
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\bin\Debug\ControlzEx.pdb
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\bin\Debug\MahApps.Metro.pdb
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\bin\Debug\MahApps.Metro.xml
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\obj\Debug\ProyectoBeLife.csprojAssemblyReference.cache
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\obj\Debug\Resources\Icons.baml
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\obj\Debug\App.baml
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\obj\Debug\MainWindow.g.cs
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\obj\Debug\App.g.cs
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\obj\Debug\ProyectoBeLife_MarkupCompile.cache
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\obj\Debug\ProyectoBeLife_MarkupCompile.lref
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\obj\Debug\MainWindow.baml
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\obj\Debug\ProyectoBeLife.g.resources
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\obj\Debug\ProyectoBeLife.Properties.Resources.resources
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\obj\Debug\ProyectoBeLife.csproj.GenerateResource.cache
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\obj\Debug\ProyectoBeLife.csproj.CopyComplete
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\obj\Debug\ProyectoBeLife.exe
+C:\Users\danie\Desktop\Nueva carpeta (2)\ProyectoBeLife\ProyectoBeLife\obj\Debug\ProyectoBeLife.pdb
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\bin\Debug\ProyectoBeLife.exe.config
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\bin\Debug\ProyectoBeLife.exe
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\bin\Debug\ProyectoBeLife.pdb
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\bin\Debug\ControlzEx.dll
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\bin\Debug\MahApps.Metro.dll
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\bin\Debug\ControlzEx.pdb
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\bin\Debug\MahApps.Metro.pdb
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\bin\Debug\MahApps.Metro.xml
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\obj\Debug\ProyectoBeLife.csprojAssemblyReference.cache
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\obj\Debug\Resources\Icons.baml
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\obj\Debug\App.baml
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\obj\Debug\MainWindow.g.cs
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\obj\Debug\App.g.cs
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\obj\Debug\ProyectoBeLife_MarkupCompile.cache
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\obj\Debug\ProyectoBeLife_MarkupCompile.lref
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\obj\Debug\MainWindow.baml
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\obj\Debug\ProyectoBeLife.g.resources
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\obj\Debug\ProyectoBeLife.Properties.Resources.resources
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\obj\Debug\ProyectoBeLife.csproj.GenerateResource.cache
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\obj\Debug\ProyectoBeLife.csproj.CopyComplete
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\obj\Debug\ProyectoBeLife.exe
+C:\Users\danie\Desktop\proyectos\ProyectoBeLife2\ProyectoBeLife\obj\Debug\ProyectoBeLife.pdb
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\bin\Debug\ProyectoBeLife.exe.config
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\bin\Debug\ProyectoBeLife.exe
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\bin\Debug\ProyectoBeLife.pdb
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\bin\Debug\ControlzEx.dll
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\bin\Debug\MahApps.Metro.dll
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\bin\Debug\ControlzEx.pdb
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\bin\Debug\MahApps.Metro.pdb
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\bin\Debug\MahApps.Metro.xml
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\ProyectoBeLife.csprojAssemblyReference.cache
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\Resources\Icons.baml
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\App.baml
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\MainWindow.g.cs
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\App.g.cs
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\ProyectoBeLife_MarkupCompile.cache
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\ProyectoBeLife_MarkupCompile.lref
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\MainWindow.baml
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\ProyectoBeLife.g.resources
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\ProyectoBeLife.Properties.Resources.resources
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\ProyectoBeLife.csproj.GenerateResource.cache
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\ProyectoBeLife.csproj.CopyComplete
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\ProyectoBeLife.exe
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\ProyectoBeLife.pdb
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\Acceso.g.cs
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\Acceso.baml

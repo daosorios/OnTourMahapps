@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OnTourModelStoreContainer" CdmEntityContainer="OnTourEntities1">
+    <EntitySetMapping Name="Personas">
+      <EntityTypeMapping TypeName="OnTourModel.Personas">
+        <MappingFragment StoreEntitySet="Personas">
+          <ScalarProperty Name="id_persona" ColumnName="id_persona" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="rut" ColumnName="rut" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuario">
+      <EntityTypeMapping TypeName="OnTourModel.usuario">
+        <MappingFragment StoreEntitySet="usuario">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="contra" ColumnName="contra" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

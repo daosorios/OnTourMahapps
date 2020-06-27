@@ -1,0 +1,129 @@
+﻿<Page x:Class="ProyectoBeLife.Acceso"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:ProyectoBeLife"
+        mc:Ignorable="d" Background="White"
+        Title="Acceso" Height="800" Width="1000">
+
+    <Grid>
+        <Image Source="Imagen/Fondo.png" Opacity="0.80" />
+        <Grid>       
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="7*" />
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+
+            <!--COLUMNA DE FILA 1-->
+            <Grid Grid.Row="0" Background="Orange" HorizontalAlignment="Stretch" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="1">
+                    <Image  Source="Imagen/Logo.png"  />
+                </Grid>               
+            </Grid>
+            
+            <!--COLUMNA DE FILA 1-->
+            <Grid Grid.Row="1"  >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="1">
+                    <Image  Source="Imagen/Login.png" Width="90"  Height="90" VerticalAlignment="Bottom" HorizontalAlignment="Stretch"/>
+                </Grid>
+            </Grid>
+
+            
+            <!--COLUMNA DE FILA 2-->
+            <Grid Grid.Row="2" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="1">
+                    <Label Content="Correo electrónico" VerticalAlignment="Center" FontSize="14" HorizontalAlignment="Center" Margin="67,33,143,30"/>
+                    <TextBox x:Name="TxbCorreoIngreso" Width="200" Height="30" HorizontalAlignment="Center" VerticalAlignment="Bottom" Opacity="0.5" BorderBrush="Transparent" />
+                         
+                </Grid>
+            </Grid>
+
+            <Grid Grid.Row="3" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="1">
+                    <Label Content="Contraseña" VerticalAlignment="Center" FontSize="14" HorizontalAlignment="Center" Margin="67,28,187,35" />
+
+                    <PasswordBox x:Name="TxbContraseñaIngreso" Width="200" Height="30" HorizontalAlignment="Center" VerticalAlignment="Bottom" Opacity="0.5"/>
+                </Grid>
+            </Grid>
+            
+            <!--COLUMNA DE FILA 4-->
+            <Grid Grid.Row="4" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="1">
+                    <Button x:Name="Ingresar" Background="Orange"
+                            Width="100" Height="30" Content="Ingresar" 
+                            Click="Ingresar_Click" Foreground="White" FontSize="14" FontWeight="Regular"/>
+                </Grid>
+            </Grid>
+            
+            <Grid Grid.Row="5" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="1" Height="62" VerticalAlignment="Top">
+                    <Label Content="¿No tienes Cuenta?" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
+                </Grid>
+            </Grid>
+            
+            <Grid Grid.Row="6" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="1">
+                    <Button x:Name="BtAutoReg" Background="Orange"
+                            Width="100" Height="30" Content="Registrate" VerticalAlignment="Top"
+                            Foreground="White" FontSize="14" FontWeight="Regular" Click="BtAutoReg_Click"/>
+                </Grid>
+            </Grid>
+
+        </Grid>
+    </Grid>
+        
+</Page>

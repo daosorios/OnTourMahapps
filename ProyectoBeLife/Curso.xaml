@@ -1,0 +1,169 @@
+﻿<Page x:Class="ProyectoBeLife.Curso"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:ProyectoBeLife"
+        mc:Ignorable="d"
+        Title="Acceso" Height="800" Width="1000">
+
+    <Grid>
+
+
+        <Controls:MetroTabControl>
+            <Controls:MetroTabItem  Height="100" Margin="0,0,-157,0" Background="Orange"  >
+                
+                <Grid>
+
+                </Grid>
+               
+            </Controls:MetroTabItem>
+
+            <Controls:MetroTabItem Header="Curso" x:Uid="1" Height="100" Margin="157,0,-261,0" Background="Orange" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                       
+                        <RowDefinition Height="1.5*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="3*"/>
+                      
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="2*"/>
+                    </Grid.RowDefinitions>
+                    
+                    
+                    <Grid Grid.Row="1"  HorizontalAlignment="Stretch"  >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="0">
+                            <Label Content="Registrato de Curso" 
+                           HorizontalAlignment="Center" VerticalAlignment="Center" 
+                           FontStyle="Normal" Foreground="Black" FontSize="18" />
+                        </Grid>
+                    </Grid>
+
+                    <Grid Grid.Row="2"  HorizontalAlignment="Stretch"  >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="0">
+                            <Label Content="Curso" 
+                           HorizontalAlignment="Right" VerticalAlignment="Bottom" 
+                           FontStyle="Normal" Foreground="Black" FontSize="18" />
+                        </Grid>
+
+                        <Grid Grid.Column="1">
+                            <TextBox x:Name="TxbCurso"  Height="30" Controls:TextBoxHelper.Watermark="Ingresa curso"
+                             HorizontalAlignment="Stretch" VerticalAlignment="Bottom" BorderBrush="Gray" 
+                             />
+                        </Grid>
+                    </Grid>
+
+
+                    <Grid Grid.Row="3"  HorizontalAlignment="Stretch" >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="0">
+                            <Label Content="Institución" 
+                           HorizontalAlignment="Right" VerticalAlignment="Bottom" 
+                           FontStyle="Normal" Foreground="Black" FontSize="18" />
+                        </Grid>
+
+                        <Grid Grid.Column="1">
+                            <TextBox x:Name="TxbInstitución"  Height="30" Controls:TextBoxHelper.Watermark="Ingresa nombre"
+                             HorizontalAlignment="Stretch" VerticalAlignment="Bottom" BorderBrush="Gray" 
+                             />
+                        </Grid>
+                    </Grid>
+
+                    <Grid Grid.Row="4"  HorizontalAlignment="Stretch" >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="0">
+                            <Label Content="Cantidad" 
+                           HorizontalAlignment="Right" VerticalAlignment="Bottom" 
+                           FontStyle="Normal" Foreground="Black" FontSize="18" />
+                        </Grid>
+
+                        <Grid Grid.Column="1">
+                            <TextBox x:Name="TxbCantidad"  Height="30" Controls:TextBoxHelper.Watermark="Ingresa cantidad alumnos"
+                             HorizontalAlignment="Stretch" VerticalAlignment="Bottom" BorderBrush="Gray" 
+                             />
+                        </Grid>
+                    </Grid>
+
+                    <Grid Grid.Row="6"  HorizontalAlignment="Stretch" >
+                        <Grid.ColumnDefinitions>
+
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="1">
+                            <DataGrid ItemsSource="{Binding People}" HorizontalAlignment="Stretch" />
+                        </Grid>
+
+                        <Grid Grid.Column="1">
+
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </Controls:MetroTabItem>
+
+            <Controls:MetroTabItem Header="Contrato" Width="200" Background="Orange" Height="100" Margin="261,0,-261,0" FontStyle="Normal" >
+                <Grid>
+                    <Grid.RowDefinitions>                     
+                        <RowDefinition Height="1.5*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="2*"/>
+                    </Grid.RowDefinitions>
+
+          
+                    <Label Content="Hola" Grid.ColumnSpan="2" ></Label>
+                </Grid>
+            </Controls:MetroTabItem>
+            
+            
+            <Controls:MetroTabItem  Height="100" Margin="260,0,-417,0" Background="Orange"  >
+
+                <Grid>
+
+                </Grid>
+
+            </Controls:MetroTabItem>
+
+        </Controls:MetroTabControl>
+    </Grid>
+</Page>
