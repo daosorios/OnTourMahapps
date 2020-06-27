@@ -21,6 +21,7 @@ namespace ProyectoBeLife
     /// </summary>
     public partial class Acceso : Page
     {
+        public static int numid;
         public MainWindow ControladorAcceso;
         public Acceso()
         {
@@ -38,6 +39,7 @@ namespace ProyectoBeLife
             {
                 if (usu.tipo.Equals("E"))
                 {
+                    numid = usu.id;
                     ControladorAcceso.miFrame.NavigationService.Navigate(ControladorAcceso.registroCurso);
                 }
                 else if (usu.tipo.Equals("A")) { 
@@ -46,6 +48,10 @@ namespace ProyectoBeLife
                 }
 
 
+            }
+            else
+            {
+                MessageBox.Show("Intente nuevamente, este usuario no existe");
             }
 
 

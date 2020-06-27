@@ -20,5 +20,15 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="Curso">
+      <EntityTypeMapping TypeName="OnTourModel.Curso">
+        <MappingFragment StoreEntitySet="Curso">
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="institucion" ColumnName="institucion" />
+          <ScalarProperty Name="curso1" ColumnName="curso" />
+          <ScalarProperty Name="id_ejecutivo" ColumnName="id_ejecutivo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

@@ -20,5 +20,15 @@
   <EntityContainer Name="OnTourEntities1" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Personas" EntityType="Self.Personas" />
     <EntitySet Name="usuario" EntityType="Self.usuario" />
+    <EntitySet Name="Curso" EntityType="OnTourModel.Curso" />
   </EntityContainer>
+  <EntityType Name="Curso">
+    <Key>
+      <PropertyRef Name="id_ejecutivo" />
+    </Key>
+    <Property Name="id_ejecutivo" Type="Int32" Nullable="false" />
+    <Property Name="curso1" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="institucion" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="cantidad" Type="Int32" />
+  </EntityType>
 </Schema>

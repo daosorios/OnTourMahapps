@@ -4,7 +4,16 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="OnTourModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="OnTourModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Curso">
+          <Key>
+            <PropertyRef Name="id_ejecutivo" />
+          </Key>
+          <Property Name="id_ejecutivo" Type="int" Nullable="false" />
+          <Property Name="curso" Type="nchar" MaxLength="10" />
+          <Property Name="institucion" Type="nchar" MaxLength="100" />
+          <Property Name="cantidad" Type="int" />
+        </EntityType>
         <EntityType Name="Personas">
           <Key>
             <PropertyRef Name="id_persona" />
@@ -23,11 +32,11 @@
           <Property Name="tipo" Type="nchar" MaxLength="1" />
         </EntityType>
         <EntityContainer Name="OnTourModelStoreContainer">
+          <EntitySet Name="Curso" EntityType="Self.Curso" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Personas" EntityType="Self.Personas" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="usuario" EntityType="Self.usuario" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="OnTourModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -51,7 +60,17 @@
         <EntityContainer Name="OnTourEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Personas" EntityType="Self.Personas" />
           <EntitySet Name="usuario" EntityType="Self.usuario" />
+          <EntitySet Name="Curso" EntityType="OnTourModel.Curso" />
         </EntityContainer>
+        <EntityType Name="Curso">
+          <Key>
+            <PropertyRef Name="id_ejecutivo" />
+          </Key>
+          <Property Name="id_ejecutivo" Type="Int32" Nullable="false" />
+          <Property Name="curso1" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="institucion" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+          <Property Name="cantidad" Type="Int32" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -74,6 +93,16 @@
                 <ScalarProperty Name="correo" ColumnName="correo" />
                 <ScalarProperty Name="contra" ColumnName="contra" />
                 <ScalarProperty Name="tipo" ColumnName="tipo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Curso">
+            <EntityTypeMapping TypeName="OnTourModel.Curso">
+              <MappingFragment StoreEntitySet="Curso">
+                <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+                <ScalarProperty Name="institucion" ColumnName="institucion" />
+                <ScalarProperty Name="curso1" ColumnName="curso" />
+                <ScalarProperty Name="id_ejecutivo" ColumnName="id_ejecutivo" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

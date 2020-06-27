@@ -97,7 +97,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Curso.xaml">
+    <Page Include="RegistroCurso.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -114,8 +114,8 @@
     <Compile Include="Acceso.xaml.cs">
       <DependentUpon>Acceso.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Curso.xaml.cs">
-      <DependentUpon>Curso.xaml</DependentUpon>
+    <Compile Include="RegistroCurso.xaml.cs">
+      <DependentUpon>RegistroCurso.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

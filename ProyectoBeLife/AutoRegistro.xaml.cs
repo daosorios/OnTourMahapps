@@ -33,6 +33,8 @@ namespace ProyectoBeLife
         {
             Random rnd = new Random();
             int idrandom= rnd.Next(1, 1000);
+
+
             usuarios usu = new usuarios()
             {
                 correo = TxbCorreoRegistro.Text,

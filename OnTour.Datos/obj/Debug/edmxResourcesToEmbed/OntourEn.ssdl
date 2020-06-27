@@ -1,5 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="OnTourModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Curso">
+    <Key>
+      <PropertyRef Name="id_ejecutivo" />
+    </Key>
+    <Property Name="id_ejecutivo" Type="int" Nullable="false" />
+    <Property Name="curso" Type="nchar" MaxLength="10" />
+    <Property Name="institucion" Type="nchar" MaxLength="100" />
+    <Property Name="cantidad" Type="int" />
+  </EntityType>
   <EntityType Name="Personas">
     <Key>
       <PropertyRef Name="id_persona" />
@@ -18,6 +27,7 @@
     <Property Name="tipo" Type="nchar" MaxLength="1" />
   </EntityType>
   <EntityContainer Name="OnTourModelStoreContainer">
+    <EntitySet Name="Curso" EntityType="Self.Curso" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Personas" EntityType="Self.Personas" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="usuario" EntityType="Self.usuario" Schema="dbo" store:Type="Tables" />
   </EntityContainer>

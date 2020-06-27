@@ -24,7 +24,7 @@ namespace ProyectoBeLife
     public partial class MainWindow : MetroWindow
     {
         public Acceso acceso = new Acceso();
-        public Curso registroCurso = new Curso();
+        public RegistroCurso registroCurso = new RegistroCurso();
         public AutoRegistro autoRegistro = new AutoRegistro();
 
         public MainWindow()

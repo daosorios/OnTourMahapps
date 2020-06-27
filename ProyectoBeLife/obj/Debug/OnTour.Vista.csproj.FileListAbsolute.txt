@@ -3,7 +3,6 @@ C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\Resource
 C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\App.baml
 C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\MainWindow.g.cs
 C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\Acceso.g.cs
-C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\Curso.g.cs
 C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\App.g.cs
 C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\ProyectoBeLife_MarkupCompile.cache
 C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\ProyectoBeLife_MarkupCompile.lref
@@ -20,7 +19,6 @@ C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\bin\Debug\MahApps.
 C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\bin\Debug\MahApps.Metro.xml
 C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\MainWindow.baml
 C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\Acceso.baml
-C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\Curso.baml
 C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\ProyectoBeLife.g.resources
 C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\ProyectoBeLife.Properties.Resources.resources
 C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\OnTour.Vista.csproj.GenerateResource.cache
@@ -38,3 +36,5 @@ C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\bin\Debug\EntityFr
 C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\bin\Debug\OnTour.Datos.pdb
 C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\bin\Debug\OnTour.Datos.dll.config
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\RegistroCurso.g.cs
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\RegistroCurso.baml

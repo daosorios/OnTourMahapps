@@ -27,5 +27,6 @@ namespace OnTour.Datos
     
         public virtual DbSet<Personas> Personas { get; set; }
         public virtual DbSet<usuario> usuario { get; set; }
+        public virtual DbSet<Curso> Curso { get; set; }
     }
 }
