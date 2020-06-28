@@ -8,6 +8,7 @@
         <EntityTypeShape EntityType="OnTourModel.Personas" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="OnTourModel.usuario" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="OnTourModel.Curso" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="OnTourModel.Contratos" Width="1.5" PointX="3.125" PointY="3.375" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

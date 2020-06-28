@@ -30,5 +30,21 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="Contratos">
+      <EntityTypeMapping TypeName="OnTourModel.Contratos">
+        <MappingFragment StoreEntitySet="Contratos">
+          <ScalarProperty Name="costo" ColumnName="costo" />
+          <ScalarProperty Name="destino" ColumnName="destino" />
+          <ScalarProperty Name="seguro" ColumnName="seguro" />
+          <ScalarProperty Name="correo_rep" ColumnName="correo_rep" />
+          <ScalarProperty Name="rut_rep" ColumnName="rut_rep" />
+          <ScalarProperty Name="nombre_rep" ColumnName="nombre_rep" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="curso" ColumnName="curso" />
+          <ScalarProperty Name="institucion" ColumnName="institucion" />
+          <ScalarProperty Name="id_ejec" ColumnName="id_ejec" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

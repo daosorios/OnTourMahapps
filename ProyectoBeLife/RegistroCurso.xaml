@@ -187,7 +187,7 @@
 
 
             <!--Contratos -->
-            <Controls:MetroTabItem  x:Name="BtContratos" Header="Contrato" Width="200" Background="Orange" Height="100" Margin="261,0,-261,0" FontStyle="Normal" >
+            <Controls:MetroTabItem   Header="Contrato" Width="200" Background="Orange" Height="100" Margin="261,0,-261,0" FontStyle="Normal" >
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="1.5*"/>
@@ -200,7 +200,7 @@
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="0.1*"/>
                             <ColumnDefinition Width="1*"/>
-                            <ColumnDefinition Width="1.8*"/>
+                            <ColumnDefinition Width="1.5*"/>
                             <ColumnDefinition Width="0.1*"/>
                         </Grid.ColumnDefinitions>
 
@@ -218,31 +218,38 @@
                             </Grid.RowDefinitions>
 
                             <Grid Grid.Row="0">
-                                <TextBox x:Name="Txb"  BorderBrush="Gray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Controls:TextBoxHelper.Watermark="institución" Margin="0,0,92,0" />
+                                <Label Content="Institución" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontStyle="Normal" Foreground="Black" FontSize="14"/>
+                                <TextBox x:Name="TxbInstContra"  BorderBrush="Gray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Controls:TextBoxHelper.Watermark="institución" Margin="0,0,34,0" />
 
                             </Grid>
                             <Grid Grid.Row="1">
-                                <TextBox   BorderBrush="Gray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Controls:TextBoxHelper.Watermark="Curso" Margin="0,0,92,0" />
+                                <Label Content="Curso" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontStyle="Normal" Foreground="Black" FontSize="14"/>
+                                <TextBox  Name="TxbCursoContra" BorderBrush="Gray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Controls:TextBoxHelper.Watermark="Curso" Margin="0,0,34,0" />
 
                             </Grid>
                             <Grid Grid.Row="2">
-                                <TextBox   BorderBrush="Gray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Controls:TextBoxHelper.Watermark="Cantidad Alumnos" Margin="0,0,92,0" />
+                                <Label Content="Cantidad" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontStyle="Normal" Foreground="Black" FontSize="14"/>
+                                <TextBox  x:Name="TxbCantContra" BorderBrush="Gray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Controls:TextBoxHelper.Watermark="Cantidad Alumnos" Margin="0,0,33,0" />
 
                             </Grid>
                             <Grid Grid.Row="3">
-                                <TextBox   BorderBrush="Gray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Controls:TextBoxHelper.Watermark="Nombre Representante" Margin="0,0,92,0" />
+                                <Label Content="Representante" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontStyle="Normal" Foreground="Black" FontSize="14"/>
+                                <TextBox  x:Name="TxbNombRContra" BorderBrush="Gray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Controls:TextBoxHelper.Watermark="Nombre Representante" Margin="0,0,34,0" />
 
                             </Grid>
                             <Grid Grid.Row="4">
-                                <TextBox   BorderBrush="Gray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Controls:TextBoxHelper.Watermark="Rut Representante" Margin="0,0,92,0" />
+                                <Label Content="Rut" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontStyle="Normal" Foreground="Black" FontSize="14"/>
+                                <TextBox  x:Name="TxbCRutRContra" BorderBrush="Gray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Controls:TextBoxHelper.Watermark="Rut Representante" Margin="0,0,34,0" />
 
                             </Grid>
                             <Grid Grid.Row="5">
-                                <TextBox   BorderBrush="Gray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Controls:TextBoxHelper.Watermark="Correo electrónico" Margin="0,0,92,0" />
+                                <Label Content="Correo" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontStyle="Normal" Foreground="Black" FontSize="14"/>
+                                <TextBox x:Name="TxbCorreoRContra"  BorderBrush="Gray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Controls:TextBoxHelper.Watermark="Correo electrónico" Margin="0,0,34,0" />
 
                             </Grid>
                             <Grid Grid.Row="6">
-                                <ComboBox BorderBrush="Gray" Width="230"  Height="30" HorizontalAlignment="Left" VerticalAlignment="Bottom"   Margin="10,0,0,0" SelectedIndex="0">
+                                <Label Content="Seguro" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontStyle="Normal" Foreground="Black" FontSize="14"/>
+                                <ComboBox x:Name="CbSeguroContra" BorderBrush="Gray" Width="230"  Height="30" HorizontalAlignment="Left" VerticalAlignment="Bottom"   Margin="104,0,0,0" SelectedIndex="0">
                                     <ComboBoxItem>
                                         Seguro
                                     </ComboBoxItem>
@@ -260,8 +267,8 @@
                             </Grid>
                             
                             <Grid Grid.Row="7">
-                               
-                                <ComboBox BorderBrush="Gray" Width="230"  Height="30" HorizontalAlignment="Left" VerticalAlignment="Bottom"   Margin="10,0,0,0" SelectedIndex="0">
+                                <Label Content="Destino" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontStyle="Normal" Foreground="Black" FontSize="14"/>
+                                <ComboBox Name="CbDestinoContra" BorderBrush="Gray" Width="230"  Height="30" HorizontalAlignment="Left" VerticalAlignment="Bottom"   Margin="104,0,0,0" SelectedIndex="0">
                                     <ComboBoxItem>
                                         Destino
                                     </ComboBoxItem>
@@ -279,15 +286,26 @@
                             
                             
                             <Grid Grid.Row="8">
-                                
-                                <TextBox   BorderBrush="DarkGray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Controls:TextBoxHelper.Watermark="Costo" Margin="0,0,92,0" />
+                                <Label Content="Costo" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontStyle="Normal" Foreground="Black" FontSize="14"/>
+                                <TextBox x:Name="TxbCostoContra"  BorderBrush="DarkGray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Controls:TextBoxHelper.Watermark="Costo" Margin="0,0,34,0" />
 
                             </Grid>
 
                         </Grid>
 
                         <Grid Grid.Column="2">
-                            <DataGrid x:Name="DgContrato" IsReadOnly="True" ItemsSource="{Binding People}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="10*"/>
+
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0"/>
+                            <Grid Grid.Row="1">
+                                <DataGrid x:Name="DgContrato" IsReadOnly="True" ItemsSource="{Binding People}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+
+                            </Grid>
+                           
                        
                         </Grid> 
 
@@ -307,45 +325,49 @@
                         <Grid Grid.Column="1">
                             <Button x:Name="BtCrearCont" Background="Orange"
                             Width="100" Height="30" Content="Crear" VerticalAlignment="Center" HorizontalAlignment="Right"
-                            Foreground="White" FontSize="14" FontWeight="Regular"  />
+                            Foreground="White" FontSize="14" FontWeight="Regular" Click="BtCrearCont_Click"  />
                         </Grid>
 
                         <Grid Grid.Column="2">
                             <Button x:Name="BtModificarCont" Background="Orange"
                             Width="100" Height="30" Content="Modificar" VerticalAlignment="Center" HorizontalAlignment="Right"
-                            Foreground="White" FontSize="14" FontWeight="Regular"  />
+                            Foreground="White" FontSize="14" FontWeight="Regular" Click="BtModificarCont_Click"  />
                         </Grid>
                         <Grid Grid.Column="3">
                             <Button x:Name="BtEliminarCont" Background="Orange"
                             Width="100" Height="30" Content="Eliminar" VerticalAlignment="Center" HorizontalAlignment="Right"
-                            Foreground="White" FontSize="14" FontWeight="Regular"  />
+                            Foreground="White" FontSize="14" FontWeight="Regular" Click="BtEliminarCont_Click"  />
                         </Grid>
                         <Grid Grid.Column="5">
                         <Button x:Name="BtRefreshContr" Background="Orange"
                             Width="100" Height="30" Content="Restablecer" VerticalAlignment="Center" HorizontalAlignment="Left"
-                            Foreground="White" FontSize="14" FontWeight="Regular"     />
+                            Foreground="White" FontSize="14" FontWeight="Regular" Click="BtRefreshContr_Click"     />
                         </Grid>
                     </Grid>
 
                     <Grid Grid.Row="0">
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="0.1*"/>
-       
-                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="0.1*"/>       
+                            <ColumnDefinition Width="2*"/>
                             <ColumnDefinition Width="2*"/>
                             <ColumnDefinition Width="1*"/>
                             <ColumnDefinition Width="1*"/>
                             <ColumnDefinition Width="0.1*"/>
                         </Grid.ColumnDefinitions>
-
+                        <Grid Grid.Column="1">
+                        <Label Content="Registrar Contrato" 
+                           HorizontalAlignment="Center" VerticalAlignment="Center" 
+                           FontStyle="Normal" Foreground="Black" FontSize="16" Margin="29,23,155,10" />
+                        </Grid>
                         <Grid Grid.Column="3">
                             <Button x:Name="BtBuscarCont" Background="Orange"
                             Width="100" Height="30" Content="Buscar" VerticalAlignment="Center" HorizontalAlignment="Center"
-                            Foreground="White" FontSize="14" FontWeight="Regular" />
+                            Foreground="White" FontSize="14" FontWeight="Regular" Click="BtBuscarCont_Click" />
                         </Grid>
                         <Grid Grid.Column="2">
-                            <TextBox   BorderBrush="DarkGray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Stretch"  Controls:TextBoxHelper.Watermark="Buscar por rut representante"  />
+                            <TextBox x:Name="txbRutRepBusca"   BorderBrush="DarkGray" Width="232" Height="30" HorizontalAlignment="Right" VerticalAlignment="Stretch"  Controls:TextBoxHelper.Watermark="Buscar por rut representante"  />
                         </Grid>
+                        
                     </Grid>
                 </Grid>
 

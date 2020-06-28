@@ -5,6 +5,21 @@
     <!-- SSDL content -->
     <edmx:StorageModels>
     <Schema Namespace="OnTourModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Contratos">
+          <Key>
+            <PropertyRef Name="id_ejec" />
+          </Key>
+          <Property Name="id_ejec" Type="int" Nullable="false" />
+          <Property Name="institucion" Type="nchar" MaxLength="50" />
+          <Property Name="curso" Type="nchar" MaxLength="10" />
+          <Property Name="cantidad" Type="int" />
+          <Property Name="nombre_rep" Type="nchar" MaxLength="50" />
+          <Property Name="rut_rep" Type="nchar" MaxLength="15" />
+          <Property Name="correo_rep" Type="nchar" MaxLength="50" />
+          <Property Name="seguro" Type="nchar" MaxLength="20" />
+          <Property Name="destino" Type="nchar" MaxLength="20" />
+          <Property Name="costo" Type="int" />
+        </EntityType>
         <EntityType Name="Curso">
           <Key>
             <PropertyRef Name="id_ejecutivo" />
@@ -32,6 +47,7 @@
           <Property Name="tipo" Type="nchar" MaxLength="1" />
         </EntityType>
         <EntityContainer Name="OnTourModelStoreContainer">
+          <EntitySet Name="Contratos" EntityType="Self.Contratos" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Curso" EntityType="Self.Curso" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Personas" EntityType="Self.Personas" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="usuario" EntityType="Self.usuario" Schema="dbo" store:Type="Tables" />
@@ -61,6 +77,7 @@
           <EntitySet Name="Personas" EntityType="Self.Personas" />
           <EntitySet Name="usuario" EntityType="Self.usuario" />
           <EntitySet Name="Curso" EntityType="OnTourModel.Curso" />
+          <EntitySet Name="Contratos" EntityType="OnTourModel.Contratos" />
         </EntityContainer>
         <EntityType Name="Curso">
           <Key>
@@ -70,6 +87,21 @@
           <Property Name="curso1" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
           <Property Name="institucion" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
           <Property Name="cantidad" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Contratos">
+          <Key>
+            <PropertyRef Name="id_ejec" />
+          </Key>
+          <Property Name="id_ejec" Type="Int32" Nullable="false" />
+          <Property Name="institucion" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="curso" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="cantidad" Type="Int32" />
+          <Property Name="nombre_rep" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="rut_rep" Type="String" MaxLength="15" FixedLength="true" Unicode="true" />
+          <Property Name="correo_rep" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="seguro" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+          <Property Name="destino" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+          <Property Name="costo" Type="Int32" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -103,6 +135,22 @@
                 <ScalarProperty Name="institucion" ColumnName="institucion" />
                 <ScalarProperty Name="curso1" ColumnName="curso" />
                 <ScalarProperty Name="id_ejecutivo" ColumnName="id_ejecutivo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Contratos">
+            <EntityTypeMapping TypeName="OnTourModel.Contratos">
+              <MappingFragment StoreEntitySet="Contratos">
+                <ScalarProperty Name="costo" ColumnName="costo" />
+                <ScalarProperty Name="destino" ColumnName="destino" />
+                <ScalarProperty Name="seguro" ColumnName="seguro" />
+                <ScalarProperty Name="correo_rep" ColumnName="correo_rep" />
+                <ScalarProperty Name="rut_rep" ColumnName="rut_rep" />
+                <ScalarProperty Name="nombre_rep" ColumnName="nombre_rep" />
+                <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+                <ScalarProperty Name="curso" ColumnName="curso" />
+                <ScalarProperty Name="institucion" ColumnName="institucion" />
+                <ScalarProperty Name="id_ejec" ColumnName="id_ejec" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

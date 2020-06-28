@@ -54,6 +54,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contratos.cs">
+      <DependentUpon>OntourEn.tt</DependentUpon>
+    </Compile>
     <Compile Include="Curso.cs">
       <DependentUpon>OntourEn.tt</DependentUpon>
     </Compile>

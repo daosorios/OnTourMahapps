@@ -21,6 +21,7 @@
     <EntitySet Name="Personas" EntityType="Self.Personas" />
     <EntitySet Name="usuario" EntityType="Self.usuario" />
     <EntitySet Name="Curso" EntityType="OnTourModel.Curso" />
+    <EntitySet Name="Contratos" EntityType="OnTourModel.Contratos" />
   </EntityContainer>
   <EntityType Name="Curso">
     <Key>
@@ -30,5 +31,20 @@
     <Property Name="curso1" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
     <Property Name="institucion" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
     <Property Name="cantidad" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Contratos">
+    <Key>
+      <PropertyRef Name="id_ejec" />
+    </Key>
+    <Property Name="id_ejec" Type="Int32" Nullable="false" />
+    <Property Name="institucion" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="curso" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="cantidad" Type="Int32" />
+    <Property Name="nombre_rep" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="rut_rep" Type="String" MaxLength="15" FixedLength="true" Unicode="true" />
+    <Property Name="correo_rep" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="seguro" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="destino" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="costo" Type="Int32" />
   </EntityType>
 </Schema>
