@@ -42,9 +42,11 @@ namespace ProyectoBeLife
                     numid = usu.id;
                     ControladorAcceso.miFrame.NavigationService.Navigate(ControladorAcceso.registroCurso);
                 }
-                else if (usu.tipo.Equals("A")) { 
-                
-                    MessageBox.Show("falta vista");
+                else if (usu.tipo.Equals("A")) {
+                    numid = usu.id;
+                    ControladorAcceso.apoderado.buscarUsuario();
+                    ControladorAcceso.miFrame.NavigationService.Navigate(ControladorAcceso.apoderado);
+                    
                 }
 
 

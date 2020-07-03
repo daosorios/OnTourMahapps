@@ -36,5 +36,7 @@ C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\bin\Debug\EntityFr
 C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\bin\Debug\OnTour.Datos.pdb
 C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\bin\Debug\OnTour.Datos.dll.config
-C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\RegistroCurso.g.cs
-C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\RegistroCurso.baml
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\Ejecutivo.g.cs
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\Ejecutivo.baml
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\Apoderado.g.cs
+C:\Users\danie\Desktop\proyectos\OnTourMahapps\ProyectoBeLife\obj\Debug\Apoderado.baml

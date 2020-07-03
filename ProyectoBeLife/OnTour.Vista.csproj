@@ -97,7 +97,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="RegistroCurso.xaml">
+    <Page Include="Ejecutivo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Apoderado.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -114,8 +118,11 @@
     <Compile Include="Acceso.xaml.cs">
       <DependentUpon>Acceso.xaml</DependentUpon>
     </Compile>
-    <Compile Include="RegistroCurso.xaml.cs">
-      <DependentUpon>RegistroCurso.xaml</DependentUpon>
+    <Compile Include="Ejecutivo.xaml.cs">
+      <DependentUpon>Ejecutivo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Apoderado.xaml.cs">
+      <DependentUpon>Apoderado.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -151,6 +158,10 @@
     <Resource Include="Resources\Entypo-license.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\OnTour.Datos\OnTour.Datos.csproj">
+      <Project>{83744D2C-C46F-4EB0-9E68-6B20413B10F2}</Project>
+      <Name>OnTour.Datos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\OnTour.Negocio\OnTour.Negocio.csproj">
       <Project>{E63A9C8F-B18B-49D2-9681-AA405EE14143}</Project>
       <Name>OnTour.Negocio</Name>
@@ -160,6 +171,9 @@
     <Resource Include="Imagen\Login.png" />
     <Resource Include="Imagen\Logo.png" />
     <Resource Include="Imagen\Fondo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagen\pagos.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

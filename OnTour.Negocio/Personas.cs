@@ -50,6 +50,24 @@ namespace OnTour.Negocio
             }
         }
 
+        public bool ReadiD()
+        {
+            Datos.OnTourEntities1 bbdd = new Datos.OnTourEntities1();
+            try
+            {
+                Datos.Personas usu = bbdd.Personas.First(e => e.id_persona == id_persona);
+                CommonBC.Syncronize(usu, this);
+                return true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return false;
+            }
+
+
+        }
+
 
     }
 }

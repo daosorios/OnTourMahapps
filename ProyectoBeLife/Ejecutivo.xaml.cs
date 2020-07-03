@@ -20,10 +20,10 @@ namespace ProyectoBeLife
     /// <summary>
     /// Lógica de interacción para Page1.xaml
     /// </summary>
-    public partial class RegistroCurso : Page
+    public partial class Ejecutivo : Page
     {
         public MainWindow ControladorRegistroCurso;
-        public RegistroCurso()
+        public Ejecutivo()
         {
             InitializeComponent();
             CargarCurso();

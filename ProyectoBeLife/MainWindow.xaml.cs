@@ -24,8 +24,9 @@ namespace ProyectoBeLife
     public partial class MainWindow : MetroWindow
     {
         public Acceso acceso = new Acceso();
-        public RegistroCurso registroCurso = new RegistroCurso();
+        public Ejecutivo registroCurso = new Ejecutivo();
         public AutoRegistro autoRegistro = new AutoRegistro();
+        public Apoderado apoderado = new Apoderado();
 
         public MainWindow()
         {
@@ -33,7 +34,8 @@ namespace ProyectoBeLife
 
             acceso.ControladorAcceso = this;
             registroCurso.ControladorRegistroCurso = this;
-            autoRegistro.ControladoAutoregistro = this; 
+            autoRegistro.ControladoAutoregistro = this;
+            apoderado.ControladoApoderado = this;
             miFrame.NavigationService.Navigate(acceso);
         }
 

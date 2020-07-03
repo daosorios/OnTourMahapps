@@ -1,4 +1,4 @@
-﻿<Page x:Class="ProyectoBeLife.RegistroCurso"
+﻿<Page x:Class="ProyectoBeLife.Ejecutivo"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -375,7 +375,7 @@
             </Controls:MetroTabItem>
 
 
-            <Controls:MetroTabItem  Height="100" Margin="260,0,-417,0" Background="Orange"  >
+            <Controls:MetroTabItem  Height="100" Margin="257,0,-398,0" Background="Orange"  >
 
                 <Grid>
 
